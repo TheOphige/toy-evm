@@ -1,0 +1,11 @@
+[package]
+name = "primitives"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+alloy.workspace = true
+
+[features]
+stack =[]
+memory =[]

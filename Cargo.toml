@@ -1,9 +1,11 @@
 [workspace]
 
-members = ["bins/evm", "crates/primitives"]
+members = ["bins/evm", "crates/evm_core", "crates/primitives"]
+
 
 [workspace.dependencies]
 alloy = "1.0.41"
+primitives = { path = "./crates/primitives" }
 
 # using github
 # alloy = {git = "https://github.com/TheOphige/alloy", branch = "main", features = ["compile", "hum"]}
